@@ -1,3 +1,11 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 1 auto;
+}
 .header-vk {
   background: linear-gradient(0deg, rgb(62, 101, 143), rgb(96, 133, 173));
 }
@@ -74,6 +82,77 @@ li.aside-menu-item:hover a {
 .second-column-info a {
   color: rgb(38, 88, 143);
 }
-/* .container {
+.container {
   max-width: 1000px;
-} */
+}
+.photo-block-header span:last-child {
+  color: gray;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-header {
+  background-color: #fff !important;
+}
+.accordion {
+  background-color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button {
+  font-size: 14px;
+  color: rgb(38, 88, 143);
+}
+.accordion-body p {
+  font-size: 14px;
+  color: rgb(38, 88, 143);
+}
+.notes-avatar img {
+  object-fit: cover;
+}
+.notes-body-name {
+  color: rgb(38, 88, 143);
+  font-size: 14px;
+}
+.notes-body-text {
+  font-size: 14px;
+}
+.notes-block a {
+  color: gray;
+  font-size: 12px;
+}
+.like-it {
+  color: gray;
+  font-size: 12px;
+}
+.like span {
+  color: #26588f;
+}
+.footer {
+}
+.footer__row {
+  background: linear-gradient(0deg, rgb(62, 101, 143), rgb(96, 133, 173));
+  min-height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__row {
+  background: linear-gradient(0deg, rgb(62, 101, 143), rgb(96, 133, 173));
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.footer__row img {
+  max-height: 37px;
+  max-width: 100%;
+}
