@@ -1,0 +1,79 @@
+.header-vk {
+  background: linear-gradient(0deg, rgb(62, 101, 143), rgb(96, 133, 173));
+}
+.vk-btn {
+  background: rgb(62, 101, 143);
+}
+.aside-menu-item a {
+  font-size: 14px;
+  color: rgb(62, 101, 143);
+}
+.user-name {
+  background-color: #e9ecf1;
+}
+.user-name span {
+  color: rgb(62, 101, 143);
+}
+.user-name span:last-child {
+  color: #7e898f;
+}
+.add-friend-btn {
+  background-color: rgb(62, 101, 143);
+  color: #e9ecf1;
+}
+.main-card-link {
+  font-size: 14px;
+  color: rgb(62, 101, 143);
+}
+li.aside-menu-item:hover {
+  background-color: rgb(62, 101, 143);
+}
+li.aside-menu-item:hover a {
+  color: white;
+}
+.friends-block {
+  background-color: #ccdcf5;
+}
+.friends-block a {
+  font-size: 14px;
+  color: rgb(62, 101, 143);
+}
+
+.friends-block span {
+  color: #7e898f;
+  font-size: 14px;
+}
+.friends-sub-block {
+  background-color: #f0f0f0;
+}
+.friends-sub-block span {
+  font-size: 12px;
+  color: gray;
+}
+.friends-name {
+  font-size: 12px;
+  color: rgb(62, 101, 143);
+}
+.underline:hover {
+  text-decoration: underline !important;
+}
+.main-user-name {
+  color: rgb(62, 101, 143);
+}
+.user-status {
+  font-size: 12px;
+}
+.first-column-info {
+  color: gray;
+  font-size: 14px;
+}
+.second-column-info {
+  color: rgb(38, 88, 143);
+  font-size: 14px;
+}
+.second-column-info a {
+  color: rgb(38, 88, 143);
+}
+/* .container {
+  max-width: 1000px;
+} */
